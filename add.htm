@@ -1,0 +1,44 @@
+
+<!--                       New User Registration Page                     -->
+<!-- .................................................................... -->
+
+<HTML>
+
+<HEAD>
+
+
+<TITLE>Registration</TITLE>
+
+</HEAD>
+
+
+<BODY BGCOLOR="lightskyblue">
+
+<H1 ALIGN = center>New User Registration</H1>
+
+
+<FORM METHOD=post ACTION="http://www.fire.org/cgi-bin/fire/add.out">
+
+ <TABLE border = 0 >
+  <TR><TD> Registration Id </TD><TD> <INPUT TYPE=text NAME = RegKey size=5   maxlength=4> Choose any 4 chararcter code. (R1LG, Lo12, BrNF,...) </TD></TR>
+  <TR><TD> Password        </TD><TD> <INPUT TYPE=text NAME=Password size=33  maxlength=30>                                                     </TD></TR>
+  <TR><TD> Name            </TD><TD> <INPUT TYPE=text NAME=Name     size=33  maxlength=30>                                                     </TD></TR>
+  <TR><TD> Position/Title  </TD><TD> <INPUT TYPE=text NAME=PosTit   size=33  maxlength=30>                                                     </TD></TR>
+  <TR><TD> Agency          </TD><TD> <INPUT TYPE=text NAME=Agency   size=33  maxlength=30> (USFS, MT Dept. of Res. & Cons., BIA,...)           </TD></TR>
+  <TR><TD> Management Area </TD><TD> <INPUT TYPE=text NAME=ManAre   size=33  maxlength=30> example  Stevensville, Stillwater,...               </TD></TR>
+  <TR><TD> District/Unit   </TD><TD> <INPUT TYPE=text NAME=DisUni   size=33  maxlength=30> (ex. Bitterroot NF, Stillwater,...)                 </TD></TR>
+  <TR><TD> Phone           </TD><TD> <INPUT TYPE=text NAME=Phone    size=33  maxlength=30> ( ex. 406 543-1234 )                                </TD></TR>
+  <TR><TD> Email Address   </TD><TD> <INPUT TYPE=text NAME=Email    size=50  maxlength=50>                                                     </TD></TR>
+
+ </TABLE>
+
+  Enter a short description of your project. <BR>
+  <textarea name=Desc cols=50 rows=3 ></textarea> <BR>
+
+ To process your information ---> <INPUT TYPE=submit NAME=submit VALUE="Submit"> <BR>
+ To leave  <a href="main.htm"> Return to Main Menu </a>
+
+</FORM>
+
+</BODY>
+</HTML>
